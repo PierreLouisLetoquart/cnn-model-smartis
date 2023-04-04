@@ -42,6 +42,34 @@ dataset/
     ...
 ```
 
+- Créez un environnement virtuel :
+
+```sh
+# Se rendre à la racine
+cd cnn-model-smartis
+
+pip install virtualenv
+virtualenv venv
+```
+
+- Activez l'environnement et liez le à Jupyter :
+
+```sh
+# Activez l'environnement
+source venv/bin/activate # Linux/Mac
+.\venv\Scripts\activate # Windows
+
+# Installez les dépendances
+pip install -r requirements.txt
+
+# Installez le kernel IPython correspondant au venv
+python -m ipykernel install --user --name=venv
+```
+
+Vous pouvez maintenant utiliser les notebook du répo en tapant la commande `jupyter notebook` ou `jupyter lab` dans le terminal.
+
+## Notebooks
+
 - Utilisez le notebook `preprocessing.ipynb` pour prétraiter les images d'entraînement avant de les utiliser pour l'entraînement et la prédiction du modèle de CNN.
 - Utilisez le notebook `model.ipynb` pour entraîner le modèle de CNN sur les images prétraitées et sauvegarder le modèle entraîné.
 - Utilisez le notebook `prediction.ipynb` pour faire des prédictions sur de nouvelles images en utilisant le modèle entraîné.
