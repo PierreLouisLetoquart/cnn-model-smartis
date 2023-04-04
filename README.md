@@ -4,7 +4,7 @@ Ce répo contient le code Python pour entraîner et utiliser un modèle de rése
 
 ## Prérequis
 
-- Python 3.10
+- Python 3.10 ou plus
 - Jupyter Notebook
 - Les bibliothèques Python suivantes : tensorflow, keras, numpy, matplotlib, opencv-python, pillow
 
@@ -16,7 +16,7 @@ Ce répo contient le code Python pour entraîner et utiliser un modèle de rése
 git clone git@github.com:PierreLouisLetoquart/cnn-model-smartis.git
 ```
 
-- Créez un dossier "dataset" à la racine du répo et ajoutez-y les images d'entraînement selon l'arborescence suivante :
+- Créez un dossier `dataset` à la racine du répo et ajoutez-y les images d'entraînement selon l'arborescence suivante :
 
 ```markdown
 dataset/
