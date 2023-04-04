@@ -1,0 +1,4 @@
+dataset/train/*
+dataset/validation/*
+
+models/*
